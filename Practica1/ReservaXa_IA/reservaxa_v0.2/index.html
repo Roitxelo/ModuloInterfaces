@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="gl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b6b4a">
+  <title>ReservaXa! · Escoller deporte</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#contido">Saltar ao contido principal</a>
+<div class="app-shell">
+  <header class="app-header">
+    <span aria-hidden="true"></span>
+    <div class="brand"><span class="brand-mark" aria-hidden="true">R</span>ReservaXa!</div>
+    <span aria-hidden="true"></span>
+  </header>
+  <div class="progress-wrap">
+    <div class="progress-label"><span>1. Deporte</span><span>1 de 4</span></div>
+    <progress class="progress" max="4" value="1" aria-label="Paso 1 de 4: deporte">1 de 4</progress>
+  </div>
+  <main id="contido">
+    <section class="hero">
+      <p class="eyebrow">Instalacións deportivas municipais</p>
+      <h1>Que queres xogar?</h1>
+      <p class="lead">Escolle un deporte e consulta as pistas dispoñibles ao instante.</p>
+    </section>
+    <section aria-labelledby="deportes-title">
+      <h2 id="deportes-title" class="visually-hidden">Deportes dispoñibles</h2>
+      <div class="sports-grid" data-sports-grid></div>
+    </section>
+  </main>
+  <p class="footer-note">Sen rexistro · Reserva rápida · Concello</p>
+</div>
+<div class="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+<script src="js/data.js"></script><script src="js/core.js"></script><script src="js/app.js"></script>
+</body>
+</html>

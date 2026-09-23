@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="gl">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#0b6b4a">
+  <title>ReservaXa! · Reserva confirmada</title><link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#contido">Saltar ao contido principal</a>
+<div class="app-shell">
+  <header class="app-header"><span aria-hidden="true"></span><div class="brand"><span class="brand-mark" aria-hidden="true">R</span>ReservaXa!</div><span aria-hidden="true"></span></header>
+  <main id="contido" data-confirmation>
+    <section class="confirmation" aria-labelledby="ok-title"><div class="confirm-icon" aria-hidden="true">✓</div><p class="eyebrow">Reserva completada</p><h1 id="ok-title">Pista reservada!</h1><p class="lead confirmation-lead">A reserva quedou rexistrada neste prototipo.</p><p class="confirmation-channel" data-confirm-channel></p></section>
+    <section class="panel booking-card" aria-labelledby="resumo-title"><h2 id="resumo-title">Resumo</h2><ul class="booking-list"><li><span>Deporte</span><strong data-booking="sport">—</strong></li><li><span>Pista</span><strong data-booking="court">—</strong></li><li><span>Instalación</span><strong data-booking="place">—</strong></li><li><span>Data</span><strong data-booking="date">—</strong></li><li><span>Hora</span><strong data-booking="time">—</strong></li><li><span>Participantes</span><strong data-booking="people">—</strong></li></ul></section>
+    <div class="actions"><a class="btn btn--primary" href="index.html" data-new-booking>Nova reserva</a><button class="btn btn--danger" type="button" data-open-cancel>Cancelar reserva</button></div>
+  </main>
+</div>
+<div class="modal-backdrop" aria-hidden="true"><section class="modal" role="dialog" aria-modal="true" aria-labelledby="cancel-title" aria-describedby="cancel-desc"><h2 id="cancel-title">Cancelar a reserva?</h2><p id="cancel-desc">Esta acción elimina a reserva deste prototipo. Poderás iniciar outra despois.</p><div class="actions"><button class="btn btn--danger" type="button" data-confirm-cancel>Si, cancelar reserva</button><button class="btn btn--secondary" type="button" data-close-modal>Non, manter reserva</button></div></section></div>
+<div class="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+<script src="js/data.js"></script><script src="js/core.js"></script><script src="js/app.js"></script>
+</body></html>

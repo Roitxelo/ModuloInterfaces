@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="gl">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#0b6b4a">
+  <title>ReservaXa! · Dispoñibilidade</title><link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#contido">Saltar ao contido principal</a>
+<div class="app-shell">
+  <header class="app-header"><button class="icon-btn" type="button" data-back="pistas.html" aria-label="Volver a pistas">←</button><div class="brand"><span class="brand-mark" aria-hidden="true">R</span>ReservaXa!</div><span aria-hidden="true"></span></header>
+  <div class="progress-wrap"><div class="progress-label"><span>3. Dispoñibilidade</span><span>3 de 4</span></div><progress class="progress" max="4" value="3" aria-label="Paso 3 de 4: dispoñibilidade">3 de 4</progress></div>
+  <main id="contido" data-calendar>
+    <section class="hero"><p class="eyebrow" data-court-place>Instalación municipal</p><h1 data-court-title>Pista</h1><p class="lead">Escolle día e hora. Os estados inclúen texto e símbolo, non dependen só da cor.</p></section>
+    <div class="summary-strip" aria-label="Selección actual"><span class="summary-chip"><span aria-hidden="true">🏅</span><span data-summary="sport"></span></span><span class="summary-chip"><span aria-hidden="true">📍</span><span data-summary="court"></span></span></div>
+    <section class="panel" aria-labelledby="disp-title"><h2 id="disp-title">Dispoñibilidade</h2>
+      <div class="date-nav"><button class="icon-btn" type="button" data-week-prev aria-label="Semana anterior">←</button><div class="date-current"><strong data-month-label></strong><span>Semana visible</span></div><button class="icon-btn" type="button" data-week-next aria-label="Semana seguinte">→</button></div>
+      <div class="day-row" data-day-row role="group" aria-label="Escoller día"></div>
+      <div class="slot-grid" data-slot-grid role="group" aria-label="Horas dispoñibles"></div>
+      <div class="actions"><button class="btn btn--primary" type="button" data-next disabled>Continuar coa reserva →</button></div>
+    </section>
+  </main>
+</div>
+<div class="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+<script src="js/data.js"></script><script src="js/core.js"></script><script src="js/app.js"></script>
+</body></html>
