@@ -5,3 +5,9 @@
 // "Instalación disponible para jugar a: [deporte]".
 //################################################################################
 // Escribe tu código aquí
+
+const deportes = ["Pádel", "Tenis", "Fútbol 7", "Baloncesto", "Squash"]
+
+for (let n of deportes){
+    console.log(`Instalación disponible para jugar a: ${n}`)
+}

@@ -5,3 +5,16 @@
 // pista repetido tantas veces como su propio valor (ej: Pista 1 una vez, Pista 2 dos veces...).
 //################################################################################
 // Escribe tu código aquí
+
+let numeroPistas = 0
+
+do{
+    numeroPistas = prompt("Introduce un número total de pistas (entre 1 y 20):")
+}while(numeroPistas > 20 || numeroPistas < 1)
+
+const pistas = Array(numeroPistas)
+
+for(let i = 0; i <= numeroPistas; i++){
+    for(let j = 0; j < i; j++)
+    console.log(`Pista ${i}`)
+}

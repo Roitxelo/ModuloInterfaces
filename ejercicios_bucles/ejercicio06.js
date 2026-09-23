@@ -5,3 +5,14 @@
 // acumulado tras los 20 meses.
 //################################################################################
 // Escribe tu código aquí
+
+let mensual = 0
+let total = 0
+
+for (let i = 1; i <= 20; i++){
+    mensual = (10 * i)
+    console.log(`Pago en el MES ${i}: ${mensual}`)
+    total += mensual
+}
+
+console.log(`Total acumulado: ${total}`)
