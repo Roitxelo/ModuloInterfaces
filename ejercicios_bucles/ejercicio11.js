@@ -5,3 +5,7 @@
 // El programa termina cuando acertaste o al agotar los 10 intentos.
 //################################################################################
 // Escribe tu código aquí
+
+let numAleatorio = parseInt(Math.random() * 101)
+
+console.log(`${numAleatorio}`)
