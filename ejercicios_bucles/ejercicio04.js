@@ -15,4 +15,4 @@ for (let n of ingresos){
 
 let media = recaudacion / ingresos.length
 
-console.log(`Recaudación total del día: ${recaudacion}. \nMedia de ingresos: ${media}`)
+console.log(`Recaudación total del día: ${recaudacion}. \nMedia de ingresos: ${media.toFixed(2)}`)

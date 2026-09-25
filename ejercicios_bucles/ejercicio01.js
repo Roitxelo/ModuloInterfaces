@@ -5,5 +5,5 @@
 // Escribe tu código aquí
 
 for (let i = 1; i <= 100; i++) {
-    console.log("Pista " + i);
+    console.log(`Pista ${i}`);
 }

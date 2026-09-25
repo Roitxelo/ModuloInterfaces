@@ -7,5 +7,16 @@
 // Escribe tu código aquí
 
 let numAleatorio = parseInt(Math.random() * 101)
+let intento;
+let tries = 10
+
+do{
+    intento = parseInt(prompt(`Intenta adivinar el número (${tries} intentos): `))
+    if (intento != numAleatorio){
+        console.log("Has fallado intentalo de nuevo")
+    }else{
+        console.log("Has acertado")
+    }
+}while (intento != numAleatorio && tries != 0)
 
 console.log(`${numAleatorio}`)

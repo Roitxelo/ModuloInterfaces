@@ -8,16 +8,16 @@
 
 const preciosBase = [20, 15, 30, 25]
 
-console.log("Precios base:")
-for (let n of preciosBase){
-    console.log(`${n}`)
-}
+console.log(`Precios base: ${preciosBase}`)
+//for (let n of preciosBase){
+//    console.log(`${n}`)
+//}
 
 for (let i = 0; i < preciosBase.length; i++){
     preciosBase[i] = preciosBase[i] * 0.8
 }
 
-console.log("\nPrecios SEMANA del SOCIO:")
-for (let n of preciosBase){
-    console.log(`${n}`)
-}
+console.log(`\nPrecios SEMANA del SOCIO: ${preciosBase}`)
+//for (let n of preciosBase){
+//    console.log(`${n}`)
+//}

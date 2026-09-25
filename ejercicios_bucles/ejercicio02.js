@@ -9,7 +9,7 @@ let confirmado = false
 
 while (confirmado == false){
     let confirma = prompt("Pago verificado? S/N")
-    if (confirma === 'S'){
+    if (confirma.toUpperCase === 'S'){
         confirmado = true
     }else{
         console.log("No hemos podido confirmar su reserva.  ")

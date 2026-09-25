@@ -4,3 +4,8 @@
 // Realiza un programa que calcule la suma de los consumos de las 5 pistas (1² + 2² + 3² + 4² + 5²).
 //################################################################################
 // Escribe tu código aquí
+
+let suma = 0
+for(let i = 1; i <= 5; i++){
+    suma += i**2
+}

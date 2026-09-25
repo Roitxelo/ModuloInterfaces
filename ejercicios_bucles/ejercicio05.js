@@ -12,8 +12,7 @@ do{
     numeroPistas = prompt("Introduce un número total de pistas (entre 1 y 20):")
 }while(numeroPistas > 20 || numeroPistas < 1)
 
-const pistas = Array(numeroPistas)
-
+    
 for(let i = 0; i <= numeroPistas; i++){
     for(let j = 0; j < i; j++)
     console.log(`Pista ${i}`)
