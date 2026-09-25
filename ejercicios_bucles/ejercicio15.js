@@ -5,3 +5,5 @@
 // cuántos son negativos (devolución al cliente) y cuántos son iguales a 0 (cancelación neutra).
 //################################################################################
 // Escribe tu código aquí
+
+let solicitudesARevisar = parseInt(prompt)
